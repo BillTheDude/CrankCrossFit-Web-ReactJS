@@ -1,0 +1,102 @@
+@import "../../Variables/variables.scss";
+
+
+.bootcamp-saturday-section{
+    height: 40vh;
+    background-color: $whiteColor;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    .bootcamp-sat-description{
+        margin: 20px;
+        h2 {
+            text-transform: uppercase;
+            font-size: $headingBig;
+            font-weight: 700;
+        }
+        p {
+            font-size: $paragraphMedium;
+            font-weight:400;
+            width: 75%;
+            margin: 0;
+        }
+    }
+    span{
+        background-color: rgb(140, 140, 180);
+        height: inherit;
+    }
+}
+
+.technique-saturday-section{
+    height: 40vh;
+    background-color: $whiteColor;
+    display: flex;
+    flex-direction: row;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    align-items: center;
+    .technique-sat-description{
+        margin: 20px;
+        h2{
+            text-transform: uppercase;
+            font-size: $headingBig;
+            font-weight: 700;
+        }
+        p {
+            font-size: $paragraphMedium;
+            font-weight: 400;
+            width: 65%;
+            margin: 0;
+        }
+    }
+    span{
+        background-color: rgb(140, 140, 180);
+        height: inherit;
+    }
+}
+
+
+.gym-classes-section{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    background-color: $red;
+    color: $whiteColor;
+    justify-content: center;
+    align-items: center;
+    h2{
+        font-size: $headingBig;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin: 12px;
+    }
+    .disclaimer {
+        font-size: $paragraphSmall;
+        font-weight: 400;
+        text-align: center;
+        margin: 0
+    }
+}
+.class-hours-wrapper{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    color: $blackColor;
+}
+.day-class-info{
+    background-color: $whiteColor;
+    text-align: center;
+    margin: 2em;
+    padding: 1.5em;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    width: 15em;
+    h2 {
+        font-size: $headingMedium;
+    }
+    p{
+        margin: 14px;
+        font-size: $paragraphMedium;
+    }
+}

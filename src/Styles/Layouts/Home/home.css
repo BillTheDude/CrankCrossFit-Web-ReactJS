@@ -1,0 +1,146 @@
+body {
+  font-size: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 14em;
+  margin-right: 14em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100%;
+  background-color: #ebebeb;
+}
+
+.welcome-gym-section {
+  height: 52vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("../../../Assets/Images//gym-indoors-banner1.png");
+  background-size: cover;
+  color: white;
+}
+
+.welcome-gym-section .welcome-banner {
+  text-align: center;
+}
+
+.welcome-gym-section h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 34px;
+  margin: 0;
+  padding: 14px;
+}
+
+.welcome-gym-section p {
+  font-size: 22px;
+  font-weight: 300;
+  margin: 0;
+  padding: 14px;
+}
+
+.crossfit-all-levels-section {
+  height: 42vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+}
+
+.crossfit-all-levels-section img {
+  width: 50%;
+  height: inherit;
+}
+
+.crossfit-all-levels-section h2 {
+  text-transform: uppercase;
+  font-size: 34px;
+  font-weight: 700;
+  margin: 0;
+  margin-left: 16px;
+  padding: 20px;
+}
+
+.crossfit-all-levels-section p {
+  font-size: 22px;
+  font-weight: 300;
+  width: 80%;
+  margin: 0;
+  margin-left: 16px;
+  padding: 20px;
+}
+
+.content-wrapper-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+  height: 100vh;
+  color: white;
+  margin-top: 1em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.content-wrapper-section .content {
+  background-color: salmon;
+  padding: 4px;
+  width: 49%;
+  height: 47%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.content-wrapper-section .content h2 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  position: absolute;
+  text-transform: uppercase;
+  bottom: 2em;
+  left: 6em;
+  right: 6em;
+}
+
+.content-wrapper-section .content p {
+  position: absolute;
+  text-align: center;
+  width: 75%;
+  left: 6em;
+  right: 6em;
+  bottom: 0;
+}
+/*# sourceMappingURL=home.css.map */

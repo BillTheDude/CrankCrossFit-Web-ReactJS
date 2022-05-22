@@ -1,0 +1,119 @@
+body {
+  font-size: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 14em;
+  margin-right: 14em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100%;
+  background-color: #ebebeb;
+}
+
+.coaches-section {
+  height: 62vh;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.coaches-section .gym-coach {
+  margin: 2em;
+  background-color: darkseagreen;
+  border-radius: 14px;
+  width: 17em;
+  height: 20em;
+}
+
+.coaches-section .gym-coach .coach-name {
+  position: absolute;
+  width: inherit;
+  bottom: 13%;
+  padding: 6px;
+  margin-left: 10px;
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+}
+
+.coaches-section h2 {
+  font-size: 34px;
+  margin: 8px;
+  text-transform: uppercase;
+}
+
+.coaches-section p {
+  font-size: 22px;
+  text-align: center;
+  margin: 8px;
+  width: 50%;
+}
+
+.coaches-section .coaches-portraits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 80%;
+}
+
+.coach-mission-section {
+  height: 40vh;
+  background-color: #cd4c4c;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.coach-mission-section .mission-description {
+  margin: 1em;
+  padding: 12px;
+}
+
+.coach-mission-section h2 {
+  font-size: 34px;
+  margin: 0;
+  padding: 6px;
+  text-transform: uppercase;
+}
+
+.coach-mission-section p {
+  font-size: 20px;
+  width: 75%;
+  margin: 0;
+  padding: 6px;
+}
+
+.coach-mission-section span {
+  background-color: teal;
+  height: inherit;
+  width: 50%;
+}
+/*# sourceMappingURL=aboutus.css.map */

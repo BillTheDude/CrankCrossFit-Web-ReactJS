@@ -1,0 +1,61 @@
+.follow-us-section {
+  height: 48vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #cd4c4c;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.follow-us-section .gym-follow-us-instagram {
+  padding: 10px;
+  margin: 5%;
+  width: 85;
+}
+
+.follow-us-section .gym-follow-us-instagram h2 {
+  margin: 0;
+  padding: 12px;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.follow-us-section .gym-follow-us-instagram P {
+  margin: 0;
+  padding: 12px;
+  font-size: 28px;
+  font-weight: 300;
+}
+
+.follow-us-section .gym-follow-us-instagram .instagram-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.follow-us-section .gym-follow-us-instagram .instagram-link:hover {
+  text-decoration: underline;
+}
+
+.follow-us-section .image-container {
+  width: auto;
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-top: 2em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.follow-us-section .image-container img {
+  height: 45vh;
+}
+/*# sourceMappingURL=contactUs.css.map */

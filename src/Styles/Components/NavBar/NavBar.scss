@@ -1,0 +1,83 @@
+@import "../../Variables/variables.scss";
+
+
+.navbar{
+    width: 100%;
+    height: 24vh;
+    color: $whiteColor;
+    background-color: $blackColor;
+    font-size: $navBarFontSize;
+    font-weight:800;
+    ul {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        padding: 1em;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        text-transform: uppercase;
+        a{
+            padding: 1em;
+            color: $textMidTransparent;
+            text-decoration: none;
+        }
+        a:focus{
+            text-decoration: none;
+        }
+        a:active{
+            text-decoration: none;
+        }
+        a:hover{
+           cursor: pointer;
+           color: $redText;
+           transition: 0.5s;
+        }
+    }
+    .gymLogo {
+        height: 130px;
+        width: 145px;
+    }
+}
+
+
+
+@media (max-width: 1200px) {
+
+    .navbar{
+        width: 100%;
+        height: 35%;
+        color: $whiteColor;
+        background-color: $blackColor;
+        font-size: $headingSmall;
+        text-decoration: none;
+        margin-left: 0;
+        margin-right: 0;
+        ul {
+            display: flex;
+            flex-direction: row;
+            margin: 0;
+            padding: .5em;
+            justify-content: center;
+            align-items: center;
+            a{
+                padding: .5em;
+                color: $whiteColor;
+                text-decoration: none;
+                :focus{
+                    text-decoration: none;
+                    color: $whiteColor;
+                }
+                :active{
+                    text-decoration: none;
+                    color: $whiteColor;
+                }
+                :hover{
+                   background-color: $hoverLinkArea;
+                   cursor: pointer;
+                }
+            }
+        }
+    }
+}
+

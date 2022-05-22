@@ -1,0 +1,142 @@
+.bootcamp-saturday-section {
+  height: 40vh;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+}
+
+.bootcamp-saturday-section .bootcamp-sat-description {
+  margin: 20px;
+}
+
+.bootcamp-saturday-section .bootcamp-sat-description h2 {
+  text-transform: uppercase;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.bootcamp-saturday-section .bootcamp-sat-description p {
+  font-size: 20px;
+  font-weight: 400;
+  width: 75%;
+  margin: 0;
+}
+
+.bootcamp-saturday-section span {
+  background-color: #8c8cb4;
+  height: inherit;
+}
+
+.technique-saturday-section {
+  height: 40vh;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.technique-saturday-section .technique-sat-description {
+  margin: 20px;
+}
+
+.technique-saturday-section .technique-sat-description h2 {
+  text-transform: uppercase;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.technique-saturday-section .technique-sat-description p {
+  font-size: 20px;
+  font-weight: 400;
+  width: 65%;
+  margin: 0;
+}
+
+.technique-saturday-section span {
+  background-color: #8c8cb4;
+  height: inherit;
+}
+
+.gym-classes-section {
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #cd4c4c;
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.gym-classes-section h2 {
+  font-size: 34px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 12px;
+}
+
+.gym-classes-section .disclaimer {
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+}
+
+.class-hours-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: auto;
+  color: #0a0a0a;
+}
+
+.day-class-info {
+  background-color: white;
+  text-align: center;
+  margin: 2em;
+  padding: 1.5em;
+  border-radius: 12px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  width: 15em;
+}
+
+.day-class-info h2 {
+  font-size: 28px;
+}
+
+.day-class-info p {
+  margin: 14px;
+  font-size: 20px;
+}
+/*# sourceMappingURL=schedule.css.map */

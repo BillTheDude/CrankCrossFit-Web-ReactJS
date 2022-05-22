@@ -1,0 +1,47 @@
+@import "../../Variables/variables.scss";
+
+.follow-us-section {
+    height: 48vh;
+    display: flex;
+    flex-direction: row;
+    background-color: $red;
+    color: $whiteColor;
+    align-items: center;
+    .gym-follow-us-instagram{
+        padding: 10px;
+        margin: 5%;
+        width: 85;
+        h2{
+            margin: 0;
+            padding: 12px;
+            font-size: $headingExtraBig;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        P {
+            margin: 0;
+            padding: 12px;
+            font-size: $headingMedium;
+            font-weight:300 ;
+        }
+        .instagram-link{
+            color: $whiteColor;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .instagram-link:hover{
+            text-decoration: underline;
+        }
+    }
+
+    .image-container{
+        width: auto;
+        margin-left: 5em;
+        margin-right: 5em;
+        margin-top: 2em;
+        justify-content: center;
+        img{
+            height: 45vh;
+        }
+    }
+}

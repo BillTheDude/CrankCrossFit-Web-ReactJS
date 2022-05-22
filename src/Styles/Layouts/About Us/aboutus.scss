@@ -1,0 +1,87 @@
+@import "../../Variables/variables.scss";
+
+body{
+    font-size: $fontFamily;
+    margin-left: 14em;
+    margin-right: 14em;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-color: $website-bkg;
+}
+
+.coaches-section{
+    height: 62vh;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    display: flex;
+    flex-direction: column;
+    background-color: $whiteColor;
+    justify-content:center;
+    align-items: center;
+
+    .gym-coach{
+        margin: 2em;
+        background-color: darkseagreen;
+        border-radius: 14px;
+        width: 17em;
+        height: 20em;
+        .coach-name{
+            position: absolute;
+            width: inherit;
+            bottom: 13%;
+            padding: 6px;
+            margin-left: 10px;
+            font-size: $paragraphMedium;
+            color: $whiteColor;
+            font-weight: 700;
+        }
+    }
+    h2 {
+        font-size: $headingBig;
+        margin: 8px;
+        text-transform: uppercase;
+    }
+    p {
+        font-size: $paragraphBig;
+        text-align: center;
+        margin: 8px;
+        width: 50%;
+    }
+    .coaches-portraits{
+        display: flex;
+        flex-direction: row;
+        height: 80%;
+    }
+}
+
+.coach-mission-section{
+    height: 40vh;
+    background-color: $red;
+    color: $whiteColor;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .mission-description{
+        margin: 1em;
+        padding: 12px;
+    }
+    h2 {
+        font-size: $headingBig;
+        margin: 0;
+        padding: 6px;
+        text-transform: uppercase;
+    }
+    p {
+        font-size: $paragraphMedium;
+        width: 75%;
+        margin: 0;
+        padding: 6px;
+    }
+    span{
+        background-color: teal;
+        height: inherit;
+        width: 50%;
+    }
+}
+

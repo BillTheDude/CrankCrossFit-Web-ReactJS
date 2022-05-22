@@ -1,0 +1,112 @@
+@import "../../Variables/variables.scss";
+
+    body{
+        font-size: $fontFamily;
+        margin-left: 14em;
+        margin-right: 14em;
+        display: flex;
+        flex-direction: column;
+        min-height: 100%;
+        background-color: $website-bkg;
+    }
+
+    //Start of first section
+    .welcome-gym-section {
+        height: 52vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url('../../../Assets/Images//gym-indoors-banner1.png');
+        background-size: cover;
+        color: $whiteColor;
+        .welcome-banner{
+            text-align: center;
+        }
+        h2 {
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: $headingBig;
+            margin: 0;
+            padding: 14px;
+        }
+        p{
+            font-size: $paragraphBig;
+            font-weight: 300;
+            margin: 0;
+            padding: 14px;            
+        }
+
+    }
+    //end of first section
+
+    .crossfit-all-levels-section{
+        height: 42vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: $whiteColor;
+
+        img{
+            width: 50%;
+            height: inherit;
+
+        }
+        h2{
+            text-transform: uppercase;
+            font-size: $headingBig;
+            font-weight: 700;
+            margin: 0;
+            margin-left: 16px;
+            padding: 20px;
+        }
+        p {
+            font-size: $paragraphBig;
+            font-weight: 300;
+            width: 80%;
+            margin: 0;
+            margin-left: 16px;
+            padding: 20px;
+        }
+    }
+
+    .content-wrapper-section{
+        display: flex;
+        flex-direction: row;
+        flex-flow: row wrap;
+        height: 100vh;
+        color: $whiteColor;
+        margin-top: 1em;
+        // margin-bottom: 1em;
+        justify-content:space-between;
+        // align-items: center;
+        .content{
+            background-color: salmon;
+            padding: 4px;
+            width: 49%;
+            height: 47%;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+            h2{
+                justify-content: center;
+                text-align: center;
+                position: absolute;
+                text-transform: uppercase;
+                bottom: 2em;
+                left: 6em;
+                right: 6em;
+            }
+            p {
+                position: absolute;
+                text-align: center;
+                width: 75%;
+                left: 6em;
+                right: 6em;
+                bottom: 0;
+            }
+        }
+    }
+
+
